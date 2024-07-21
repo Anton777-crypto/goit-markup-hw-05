@@ -479,25 +479,51 @@
         <div class="container-subscribe">
           <p class="cnatainer-subscribe-p">Subscribe</p>
           <div class="subscribe-form">
-          <form class="container-subscribe-form">
-            <label>
-              <input class="container-subscribe-input" type="email" name="email" placeholder="E-mail"/> 
-            </label>
-          </form>
-          <form class="btn-submit">
-            <button  class="btn-sub" type="submit" >Subscribe
-              <svg  class="btn-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-Frame3">
-                </use>
-              </svg>
-            </button>
-          </form>
-        </div>
+            <form class="container-subscribe-form">
+              <label>
+                <input
+                  class="container-subscribe-input"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                />
+              </label>
+            </form>
+            <form class="btn-submit">
+              <button class="btn-sub" type="submit">
+                Subscribe
+                <svg class="btn-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-Frame3"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
-    <!-- <div class="backdrop">
-      <div class="modal"><</div> -->
+    <div class="backdrop">
+      <div class="modal">
+        <button class="btn-modal" type="button">
+          <svg class="btn-modal-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp"></use>
+          </svg>
+        </button>
+        <p class="modal-p">Leave your contacts and we will call you back</p>
+        <div class="modal-div">
+          <label for="user-name" class="Name"> Name </label>
+          <div class="modal-input-icon">
+            <input
+              class="modal-input"
+              type="text"
+              id="user-name"
+              name="user-name"
+            />
+            <svg class="modal-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-person-black-18dp1"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

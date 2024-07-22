@@ -695,6 +695,8 @@ ol {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  width: 16;
+  height: 16;
 }
 .modal-svg-icon {
 }

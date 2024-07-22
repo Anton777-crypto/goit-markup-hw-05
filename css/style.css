@@ -679,13 +679,13 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  padding-left: 18px;
-  position: relative;
+  /* padding-left: 18px;
+  position: relative; */
 }
-.span {
+.custom-span {
   color: #4d5ae5;
-  width: 16px;
-  height: 16px;
+  width: 16;
+  height: 16;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -695,8 +695,6 @@ ol {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  width: 16;
-  height: 16;
 }
 .modal-svg-icon {
 }
@@ -724,7 +722,4 @@ ol {
   color: #4d5ae5;
 }
 .custom-checkbox {
-  position: absolute;
-  left: 0px;
-  top: 10%;
 }

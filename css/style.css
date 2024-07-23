@@ -499,7 +499,7 @@ ol {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-left: 80px;
+
   margin-bottom: 16px;
 }
 .container-subscribe-form {
@@ -544,6 +544,10 @@ ol {
   margin-left: 16px;
 }
 .container-subscribe {
+  margin-left: 80px;
+}
+
+.class-label {
   gap: 24px;
 }
 .backdrop {

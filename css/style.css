@@ -724,7 +724,7 @@ ol {
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.custom-checkbox:checked + .custom-span {
+.visually-hidden:checked + .custom-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
